@@ -166,7 +166,7 @@ function draw(){
     // position 0 de snak
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
-    // attribuer les cordonner de x et y
+    // attribuer les cordonner de x et y:chayma
     if( d == "LEFT") {snakeX -= box;}   
     if( d == "UP") { snakeY -= box; }       
     if( d == "RIGHT") {snakeX += box;}
